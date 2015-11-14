@@ -1,0 +1,26 @@
+{
+	// Matching a Username
+	"Username_RegExp":"/^[a-z0-9_-]{3,16}$/",
+
+	// Matching a Password
+	"Password_RegExp":"/^[a-z0-9_-]{6,18}$/",
+
+	// Matching a Hex Value
+	"Hex_RegExp":"/^#?([a-f0-9]{6}|[a-f0-9]{3})$/",
+
+	// Matching a Slug
+	"Slug_RegExp" : "/^[a-z0-9-]+$/",
+
+	// Matching an Email
+	"Email_RegExp":"/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/",
+
+	// Matching a URL
+	"URL_RegExp": "/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/",
+
+	// Matching a IP address
+	"IP_RegExp":"/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/",
+
+
+	// Matching an HTML Tag
+	"HTML_TAG_RegExp": "/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/"
+}
