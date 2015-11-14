@@ -1,5 +1,5 @@
 {
-	/* Matching a Username */
+	// Matching a Username
 	"Username_RegExp":"/^[a-z0-9_-]{3,16}$/",
 
 	// Matching a Password
